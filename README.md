@@ -1,4 +1,4 @@
-# Traducción_Español_DawnCraft_Echo_of_Legends_ModPack
+# Traducción Español DawnCraft Echo of Legends
 
 **Versión traducida del ModPack: 2.8.0 (BETA)**
 
