@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Un Favor"
+    },
+    "description": {
+      "text": "¿¡Qué tal!? ¿Conseguiste el saco de tinta de calamar y el papel que te pedí? Solo necesito uno de cada uno."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Graciasss!"
+    },
+    "description": {
+      "text": "¡Eres un salvavidas! Aquí, explora y completa este mapa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:map"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

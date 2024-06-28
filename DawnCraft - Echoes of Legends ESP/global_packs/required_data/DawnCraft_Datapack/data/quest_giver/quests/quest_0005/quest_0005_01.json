@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0005_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "¿Dime?"
+    },
+    "description": {
+      "text": "¿Pudiste conseguir los $(red)8 huesos$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Un millón de gracias!"
+    },
+    "description": {
+      "text": "¡Ahora mis cultivos crecerán más rápido que los de los otros granjeros! ¡Jaja! Bueno, gracias amable señor, aquí tienes una esmeralda."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:bone"
+      },
+      "id": "quest_giver:gift",
+      "times": 8
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

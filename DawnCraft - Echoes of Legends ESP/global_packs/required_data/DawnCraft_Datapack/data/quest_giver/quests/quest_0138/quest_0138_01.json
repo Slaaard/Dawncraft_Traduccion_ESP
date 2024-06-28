@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "¿Y bien?"
+		},
+		"description": {
+			"text": "Conozco la habilidad - Armement Haki. Puedo enseñártela por 20 esmeraldas."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "¡Gracias!"
+		},
+		"description": {
+			"text": "El libro debería proporcionarte los secretos de este antiguo arte oriental."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"epicfight:armement_haki\"}",
+		"id": "quest_giver:command"
+	}]
+}

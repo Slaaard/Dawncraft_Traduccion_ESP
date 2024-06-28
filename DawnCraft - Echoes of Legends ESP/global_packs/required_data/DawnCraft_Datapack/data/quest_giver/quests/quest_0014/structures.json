@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:compass",
+  "start": {
+    "title": {
+      "text": "Los Ojos Desprotegidos"
+    },
+    "description": {
+      "text": "Hasta donde tengo conocimiento, actualmente hay 7 ojos que están sin vigilancia por Guardianes de Ojos.. Los que se pueden encontrar en estructuras incluyen el Ojo Maldito y el Antiguo. En cuanto a los demás... Creo que la mayoría de ellos se pueden craftear con las fuerzas vitales de nuestro reino, mientras que algunos pueden haber sido robados por bestias notorias. Los lugareños podrían saber más al respecto que yo. Sin embargo, sé que los clérigos actualmente tienen en su posesión el Ojo Malvado."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Los Ojos Desprotegidos"
+    },
+    "description": {
+      "text": "Creo que ya no es necesario buscar los demás ojos..."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

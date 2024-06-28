@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola! Necesito un lingote de netherita para hacer herramientas. ¿Tendrías uno que puedas compartir? Por supuesto, te pagaré por él."
+    }
+  }
+}

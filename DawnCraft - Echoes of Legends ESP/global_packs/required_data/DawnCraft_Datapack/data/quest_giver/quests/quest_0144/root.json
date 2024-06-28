@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Puedo enseñarte una habilidad experta a un precio bajo. ¿Qué dices?"
+    }
+  }
+}

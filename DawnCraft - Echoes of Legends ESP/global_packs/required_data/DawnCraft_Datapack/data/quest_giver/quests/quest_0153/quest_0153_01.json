@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "¿Y qué?"
+		},
+		"description": {
+			"text": "Puedo enseñarte la habilidad - Dancing Edge por 20 esmeraldas. ¡Confía en mí, vale la pena el precio!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "¡Gracias!"
+		},
+		"description": {
+			"text": "¡Excelente elección! Buena suerte en tu viaje."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 20
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:dancing_blade\"}",
+		"id": "quest_giver:command"
+	}]
+}

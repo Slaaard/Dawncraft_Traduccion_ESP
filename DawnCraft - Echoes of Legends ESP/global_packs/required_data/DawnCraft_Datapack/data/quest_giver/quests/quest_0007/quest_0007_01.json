@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "¿Qué opinas...?"
+    },
+    "description": {
+      "text": "¡10 esmeraldas para aprender a usar la Mesa de Flechas, una ganga ¿no te parece?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Pensar correcto es lo tuyo!"
+    },
+    "description": {
+      "text": "No te vas a arrepentir. ¡Diviértete haciendo flechas!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add archery level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

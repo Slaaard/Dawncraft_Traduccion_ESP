@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Una tarea imposible!"
+    },
+    "description": {
+      "text": "Gana el derecho de empuñar Antitheus completando dos tareas a mi satisfacción: Monta un laviatán con otros tres pasajeros y esquila una moobloom."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Felicidades! Aquí está. Este blaster ofrece un poderoso golpe cargado con una fuente de energía masiva."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "alexsmobs:alexsmobs/laviathan_four_passengers"
+    },
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "friendsandfoes:husbandry/shear_a_moobloom"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:antitheus"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

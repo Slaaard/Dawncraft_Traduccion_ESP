@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¡Hey!"
+    },
+    "description": {
+      "text": "¡Hola Aventurero!, ¿Podrías conseguirme $(red)5 de carne de zombi$()? La necesito para preparar pociones."
+    }
+  }
+}

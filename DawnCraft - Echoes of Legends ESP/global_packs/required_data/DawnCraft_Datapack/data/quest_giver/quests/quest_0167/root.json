@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hey Wapooo!"
+    },
+    "description": {
+      "text": "Tengo una técnica antigua del este que puedo enseñarte, por 25 esmeraldas..."
+    }
+  }
+}

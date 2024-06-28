@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "¿Así que...?"
+    },
+    "description": {
+      "text": "¿Conseguiste la $(red)5 piezas carne podrida$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Uuuulala!"
+    },
+    "description": {
+      "text": "Buen trabajo, aquí tienes mushashon."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

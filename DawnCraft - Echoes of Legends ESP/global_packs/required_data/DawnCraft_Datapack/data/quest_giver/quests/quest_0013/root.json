@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "¡Ché!"
+    },
+    "description": {
+      "text": "¿Quieres que te enseñe a usar la piedra de afilar? Te Costará solo 10 esmeraldas."
+    }
+  }
+}

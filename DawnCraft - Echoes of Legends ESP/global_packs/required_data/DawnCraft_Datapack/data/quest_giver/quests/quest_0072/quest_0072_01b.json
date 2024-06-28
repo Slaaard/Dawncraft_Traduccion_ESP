@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Una charla amistosa"
+    },
+    "description": {
+      "text": "En los anales del tiempo, nuestro mundo no albergaba susurros arcanos hasta que un soberano sediento de poder alteró el destino. El Rey Muerto, impulsado por una ambición insaciable, dedicó trabajo y riqueza a desentrañar los misterios de la magia. Su búsqueda implacable dio origen a criaturas aberrantes, arrojando una ominosa sombra sobre nuestro antes tranquilo reino. Persisten los rumores de que incluso en la muerte, su cadáver se convirtió en un conducto para las mismas fuerzas que buscaba controlar. Ten cuidado, valiente, pues las sombras de su obsesión perduran. A medida que te adentres más, debes saber esto: El Rey Muerto espera, su cuerpo sin vida ahora un recipiente de la malevolencia de la magia. ¡Prepárate para un enfrentamiento como ningún otro!"
+    }
+  }
+}

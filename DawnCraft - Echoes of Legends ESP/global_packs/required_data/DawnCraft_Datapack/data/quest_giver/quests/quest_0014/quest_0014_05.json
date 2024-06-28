@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "Tenemos muy poca información sobre el Caballero Rober en su estado actual, pero debería estar bastante debilitado desde la última guerra... Ah, recuerda traer perlas de ender. Tiene un ataque desagradable del que solo se puede escapar mediante teletransportación."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "¡Vaya! Has derrotado al Caballero Rober, ¿eh? ¿Era duro? En el pasado, era uno de los oponentes más temibles a los que te podías enfrentar en un duelo, supongo que la edad finalmente lo alcanzó. Bueno, el próximo poseedor del ojo es otro humano. Actualmente vive en paz en su granja... Aquí está el mapa de su ubicación."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:ninetail_farm \"Misiones Principales - Granja del Nueve Colas\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

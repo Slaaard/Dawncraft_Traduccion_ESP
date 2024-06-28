@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "Olvídalo."
+    },
+    "description": {
+      "text": " El aldeano decidió en el último segundo no hablar contigo."
+    }
+  }
+}

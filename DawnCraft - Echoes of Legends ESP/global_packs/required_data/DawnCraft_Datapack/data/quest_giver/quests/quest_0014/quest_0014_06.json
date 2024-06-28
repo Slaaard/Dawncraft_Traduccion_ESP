@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "Hmm... El Nueve Colas no es exactamente humano. Bueno, lo sabrás cuándo lo veas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "Hmmph... A este punto ni siquiera me sorprende. Buen trabajo. El Nueve Colas era un espíritu notoriamente violento... No tengo ni idea de por qué decidió retirarse en un granero abandonado. De todos modos, aquí está el paradero del próximo portador del ojo. Ten cuidado, este no es como los que has enfrentado antes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:floating_island \"Misiones Principales - Isla Flotante\"",
+		"id": "quest_giver:command"
+	}, 
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

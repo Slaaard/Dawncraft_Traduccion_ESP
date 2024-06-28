@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Puedo enseñarte cómo hacer un simple dodge roll, en caso de que aún no sepas cómo hacerlo..."
+    }
+  }
+}

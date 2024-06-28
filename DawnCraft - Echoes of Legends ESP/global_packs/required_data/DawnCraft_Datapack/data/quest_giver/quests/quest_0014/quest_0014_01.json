@@ -1,0 +1,45 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "Primera Tarea"
+		},
+		"description": {
+			"text": "Vuelve después de haber cumplido los requisitos - $(red)Mata a 10 saqueadores$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Primera Tarea"
+		},
+		"description": {
+			"text": " ¡Aquí, usa estos para obtener tu primera mejora de las $(green)estatuas de los dioses$()! Te recomendaría hablar con algunos de los guardias aquí si quieres aprender algunas habilidades nuevas. ¡Buena suerte en tu viaje!."
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"item": {
+			"item": "paraglider:spirit_orb"
+		},
+		"id": "quest_giver:item",
+		"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Misiones Principales - Castillo del Rey de los Duendes\"",
+			"id": "quest_giver:command"
+		}, 
+        {
+          "command": "/loot give @p loot minecraft:guildmaster0",
+          "id": "quest_giver:command"
+        },
+        {
+           "command": "/gamestage add @p guildmaster2 true",
+            "id": "quest_giver:command"
+        }]
+}

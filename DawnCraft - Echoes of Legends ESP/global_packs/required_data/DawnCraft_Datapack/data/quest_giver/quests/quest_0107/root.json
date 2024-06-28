@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Oye chico, puedes conseguirme un trozo de $(red)Tronco del Anochecer$()? Se puede encontrar en la dimensión del Eterno Amanecer."
+    }
+  }
+}

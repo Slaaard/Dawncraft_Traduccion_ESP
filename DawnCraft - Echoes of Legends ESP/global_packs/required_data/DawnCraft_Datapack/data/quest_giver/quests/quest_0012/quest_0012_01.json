@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 3,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "¡Cubeta de Leche!"
+    },
+    "description": {
+      "text": "Por favor, date prisa. ¡Estoy ansiando una $(red)cubeta de leche entera$()!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Al fin!"
+    },
+    "description": {
+      "text": "¡D-E-L-I-C-I-O-SOOO! Muchas gracias, amigo."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:milk_bucket"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/playsound minecraft:entity.generic.drink ambient @p ~ ~ ~ 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_toolsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:bucket"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

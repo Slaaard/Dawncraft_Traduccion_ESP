@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "El siguiente portador del ojo es un no muerto. Un no muerto con muchos trucos bajo la manga, para ser precisos... Está rodeado de sus seguidores, por lo que podrías tener problemas para llegar a él."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Camino hacia los Portadores del Ojo"
+    },
+    "description": {
+      "text": "El Señor Esqueleto es probablemente el no muerto más poderoso que jamás haya visto. Me sorprende que hayas sido capaz de derrotarlo. Bien, veamos... El próximo ojo está custodiado por un reconocido Caballero Centinela. No estoy seguro de si sea posible incluso para ti. De todos modos, te daré su ubicación. Procede con cautela."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p custom:sentinel_tree \"Misiones Principales - Guardián del Árbol\"",
+		"id": "quest_giver:command"
+	},
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

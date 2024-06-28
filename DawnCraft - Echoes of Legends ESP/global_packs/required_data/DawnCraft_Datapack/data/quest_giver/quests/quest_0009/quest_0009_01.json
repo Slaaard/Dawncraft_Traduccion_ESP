@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Solicitud de Búsqueda"
+    },
+    "description": {
+      "text": "Por favor, vuelve cuando hayas reunido $(red)4 sacos de tinta$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Qué amable!"
+    },
+    "description": {
+      "text": "Te lo agradezco, pero.... desafortunadamente, he visto que nuestro suministro de papel también está casi agotado... ¿Crees que puedes ayudarnos a conseguir 10 piezas de papel? Nos reabasteceremos pronto, pero realmente apreciaríamos tu ayuda si nos echas una mano."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

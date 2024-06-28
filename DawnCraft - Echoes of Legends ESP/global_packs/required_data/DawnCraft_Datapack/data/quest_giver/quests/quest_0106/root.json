@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Amigo mío, ¿puedes ayudarme a conseguir un hacha nueva del herrero? ¡Te lo pagaré, lo prometo!"
+    }
+  }
+}

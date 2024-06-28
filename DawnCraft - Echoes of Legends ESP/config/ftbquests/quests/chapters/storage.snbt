@@ -1,0 +1,334 @@
+{
+	id: "7FB6749A5C23A010"
+	group: "0A520B482648497B"
+	order_index: 1
+	filename: "storage"
+	title: "Almacenamiento"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Los cofres básicos solo te llevarán hasta cierto punto en este Modpack, ya que hay miles de objetos únicos, y rápidamente te encontrarás ahogado en un mar de cofres por ordenar. Afortunadamente, hay mods incluidos en este Modpack que hacen que ordenar tus tesoros (y basura) sea mucho más fácil."]
+			size: 2.0d
+			id: "4D1B105EE54EDEAF"
+			tasks: [{
+				id: "3B86BA54AA15287D"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "40A712D85762E768"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "Cajones de Almacenamiento"
+			x: 2.25d
+			y: 0.0d
+			description: ["Los Cajones de Almacenamiento son la solución perfecta cuando necesitas almacenar MUCHOS objetos del mismo tipo. Excelentes para cosas de las que tendrás una gran cantidad y deseas un acceso fácil (o deshacerte de ellas). Estos pueden ser fabricados en variantes con cajones adicionales para almacenar varias pilas diferentes en un solo bloque, y pueden ser mejorados para contener más stacks de objetos."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "15C8700EFE52353A"
+			tasks: [{
+				id: "6FC7DD9A5732C9B4"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "36BF6F96178BAC7D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Almacenamiento en la Nube"
+			icon: "cloudstorage:cloud_chest"
+			x: 0.0d
+			y: -2.0d
+			description: ["El Almacenamiento en la Nube puede tomar algún tiempo para adquirir los materiales necesarios, sin embargo, ofrece un sistema de almacenamiento muy flexible. ¿Quieres una gran red de almacenamiento? ¿Varias más pequeñas? ¿Varias grandes, redes separadas? El almacenamiento en la nube puede hacerlo todo, ¡solo asegúrate de no tener miedo a las alturas!"]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.5d
+			id: "6578C82B120DE0EA"
+			tasks: [{
+				id: "7F2BD0E1BBFBF5C1"
+				type: "checkmark"
+				title: "Leer"
+			}]
+			rewards: [{
+				id: "6529B7B6EEBBFEB9"
+				type: "item"
+				item: "cloudstorage:guide_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Para empezar con el almacenamiento en la nube, necesitarás piezas de globo para fabricar un globo, y bloques de nube. Los mobs de globos aparecen por encima de la altura Y=196, al igual que los mobs de nubes, ¡así que es mejor que encuentres algunas montañas! No es mala idea construir una plataforma en el aire para luchar contra ellos más fácilmente, y un arco ciertamente ayuda. Los globos dejan caer piezas que se pueden fabricar con cuerda para hacer un globo, y los mobs de nubes dejan caer bloques de nube, que se pueden usar para fabricar cofres de nube."]
+			dependencies: ["6578C82B120DE0EA"]
+			id: "34A5470646A4CE63"
+			tasks: [{
+				id: "24C6540B62EB8438"
+				type: "item"
+				item: "cloudstorage:balloon"
+			}]
+			rewards: [{
+				id: "381FB78BCB25EFCD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			description: ["El último paso para configurar tu almacenamiento en la nube es colocar un cofre de nube en cualquier lugar directamente debajo de un bloque de cielo (¡no en interiores!). Haz clic derecho en él con un globo, y su inventario se sincronizará con todos los cofres de nube del mismo color de globo. Los cofres adicionales del mismo color de globo se conectarán a la misma red de almacenamiento."]
+			dependencies: ["34A5470646A4CE63"]
+			id: "5209737ECC6EC599"
+			tasks: [{
+				id: "7FF35AF151CD8866"
+				type: "item"
+				item: "cloudstorage:cloud_chest"
+			}]
+			rewards: [{
+				id: "4F9D60196696D136"
+				type: "item"
+				item: "minecraft:cookie"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["Los Globos Estáticos y los Cofres Estáticos se pueden usar para crear un inventario en la nube que pueda ser accedido por todos los jugadores. Esto es genial para grupos que quieren compartir inventarios. Los bloques de nube estática se pueden obtener luchando contra los mobs de nube durante tormentas eléctricas. Coloca un bloque de nube estática y haz clic derecho en él con un globo para cargar el globo. Fabrica el cofre de nube estática a partir de bloques de nube estática."]
+			dependencies: ["5209737ECC6EC599"]
+			id: "34ABF0F5257443E6"
+			tasks: [
+				{
+					id: "33C6E3483B23CF98"
+					type: "item"
+					item: {
+						id: "cloudstorage:balloon"
+						Count: 1b
+						tag: {
+							static: 1b
+						}
+					}
+				}
+				{
+					id: "678B002C4D1F8897"
+					type: "item"
+					item: "cloudstorage:static_cloud_chest"
+				}
+			]
+			rewards: [{
+				id: "0479D333C18E8CDD"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["15C8700EFE52353A"]
+			id: "6FD59A149FE6F418"
+			tasks: [{
+				id: "3E3F18BC2D0ABD54"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6B0892B3374394B0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "23DC4D6E70E1091B"
+			tasks: [{
+				id: "7A41BCB24FB670A9"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0D98ACD81721DA04"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["23DC4D6E70E1091B"]
+			id: "10F1F3EE7889A104"
+			tasks: [{
+				id: "0164BB76D1530FF3"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3A6CDC0B496DDE3A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["10F1F3EE7889A104"]
+			id: "4D9FF3E44947668F"
+			tasks: [{
+				id: "1D5A13D0B94B358C"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0B6CB1C244B83877"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["4D9FF3E44947668F"]
+			id: "7EA6B2AC631D999B"
+			tasks: [{
+				id: "7ECEED4FDCDC4207"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4FEECDB57A7D0881"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "5D0AAAB1C81D93FE"
+			tasks: [{
+				id: "5B08046B1D94ED72"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "285FE0FC1227A653"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["6FD59A149FE6F418"]
+			id: "41BD563E10B1AB25"
+			tasks: [{
+				id: "753B857BD925D870"
+				type: "item"
+				item: "storagedrawers:fill_level_upgrade"
+			}]
+			rewards: [{
+				id: "4F9606161F063677"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.7999999999999998d
+			y: 0.0d
+			description: ["Presiona B para abrir (por defecto). Puede ser equipado en la ranura de equipo de tu mochila en el menú de Curios."]
+			dependencies: ["4D1B105EE54EDEAF"]
+			size: 1.2d
+			id: "31FF51CECF71BD12"
+			tasks: [{
+				id: "18D2ED50E69DD56E"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "33C3CA210D92BE3E"
+				type: "item"
+				item: {
+					id: "magistuarmory:iron_pike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["31FF51CECF71BD12"]
+			id: "50C80EA544AF9A52"
+			tasks: [{
+				id: "5AF5BA1AFCB59BC6"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "152D37AEDA50B4C0"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["50C80EA544AF9A52"]
+			id: "0B6F5DE85FF4D3D7"
+			tasks: [{
+				id: "4D5A2790DD9BA7A3"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "0F3DF4CEA2C74515"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["0B6F5DE85FF4D3D7"]
+			id: "403035C8DC095962"
+			tasks: [{
+				id: "001E09CBCD7C498F"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "00DAF7B21BA69BCE"
+				type: "xp"
+				xp: 3
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["403035C8DC095962"]
+			id: "7CE65DEF92EE89EA"
+			tasks: [{
+				id: "65F64EF3ED2783F3"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "65DCCAAFAC3FABCB"
+				type: "item"
+				item: "plushies:cow"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

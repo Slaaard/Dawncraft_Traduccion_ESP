@@ -1,0 +1,12 @@
+{
+  "reputation": 6,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Oye chico, ¿puedes conseguirme un trozo de $(red)Tronco de Caoba$()?"
+    }
+  }
+}

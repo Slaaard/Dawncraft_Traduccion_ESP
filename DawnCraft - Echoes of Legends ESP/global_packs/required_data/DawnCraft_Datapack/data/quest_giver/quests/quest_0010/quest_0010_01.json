@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "¿Así que...?"
+    },
+    "description": {
+      "text": "¿Qué dices? 10 esmeralditas para aprender a usar la cortadora de piedra."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Muchas gracias!"
+    },
+    "description": {
+      "text": "¡Aquí tienes!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add woodcutting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p StoneCutter",
+      "id": "quest_giver:command"
+    }
+  ]
+}

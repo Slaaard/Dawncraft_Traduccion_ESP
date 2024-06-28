@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Hey tú!"
+    },
+    "description": {
+      "text": "Hola mi estimado, ¿Podrías conseguirme algo de tinta de calamar y papel?"
+    }
+  }
+}

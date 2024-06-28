@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "El Final del Camino"
+    },
+    "description": {
+      "text": "No tengo más información para darte mi amigo. Sigue tu instinto."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El Fin... ¿es solo el Comienzo??"
+    },
+    "description": {
+      "text": "Entonces... has derrotado al dragón. Supongo que eso te convierte en el nuevo gobernante del reino. Felicitaciones, valiente conquistador. Has hecho... todo lo que podías. Ahora, si me disculpas."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

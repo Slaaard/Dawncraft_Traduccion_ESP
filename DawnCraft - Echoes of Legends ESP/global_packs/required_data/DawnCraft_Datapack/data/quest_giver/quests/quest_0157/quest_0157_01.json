@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Una tarea imposible"
+    },
+    "description": {
+      "text": "Quiero que completes 2 tareas: Recibir una bendición del noble pájaro del sol, e invocar un golem de nieve mutante. Entonces consideraré entregarte a Agonía."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Gracias."
+    },
+    "description": {
+      "text": "Notable. Tómalo. Su anterior portador cayó a manos de bestias feroces. Que tu destino sea distinto al suyo."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "mutantmonsters:frosty_the_snow_golem"
+    },
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "alexsmobs:alexsmobs/sunbird_blessing"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:agony"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

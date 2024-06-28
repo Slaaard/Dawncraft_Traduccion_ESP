@@ -1,0 +1,379 @@
+{
+	id: "3FBF22A12EB77153"
+	group: "0A520B482648497B"
+	order_index: 2
+	filename: "magic"
+	title: "Magia"
+	icon: "irons_spellbooks:mana_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hechizos \\& Grimorios"
+			icon: {
+				id: "endrem:magical_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 0.0d
+			description: ["¡Aquí puedes aprender cómo obtener habilidades mágicas para mejorar tus capacidades físicas, invocar criaturas o lanzar hechizos devastadores contra tus enemigos!"]
+			size: 2.0d
+			id: "43BE75F09C4043F8"
+			tasks: [{
+				id: "089777A5C1B95D8D"
+				type: "checkmark"
+				title: "¡Lo Entiendo!"
+			}]
+		}
+		{
+			title: "Saqueo de Estructuras Mágicas"
+			icon: {
+				id: "irons_spellbooks:magehunter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.25d
+			y: 1.5d
+			description: [
+				"Las primeras etapas de tu diario mágico comienzan con la búsqueda de estructuras mágicas, saqueando sus cofres y posiblemente derrotando a los magos que residen allí."
+				"\\n¡Esta será tu fuente principal de pergaminos, que te permitirán comenzar a lanzar hechizos!"
+			]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			size: 1.5d
+			id: "0614C37C1534939E"
+			tasks: [{
+				id: "21D7529F64458A1B"
+				type: "checkmark"
+				title: "¡Entendido!"
+			}]
+		}
+		{
+			title: "Grimorios"
+			icon: {
+				id: "irons_spellbooks:legendary_spell_book"
+				Count: 1b
+				tag: {
+					ISB_spellbook: {
+						spells: [ ]
+						activeSpellIndex: -1
+						spellSlots: 12
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			description: ["Los pergaminos solo se pueden usar una vez antes de desaparecer. Para utilizarlos por completo, lo mejor es guardarlos en un Grimorio. ¡Comienza creando un Diario Frágil!\\n\\n(Si tu clase es Astrólogo, omite este paso)"]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "1F327242C2CCCF3C"
+			tasks: [{
+				id: "5AFA2C0E12D601FD"
+				type: "checkmark"
+				title: "¡De Acuerdo!"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["La mesa de inscripción te permite comenzar a colocar pergaminos en tu grimorio. Sin embargo, ten en cuenta que los pergaminos SOLO se pueden colocar en grimorios de la misma rareza o superior."]
+			dependencies: ["1F327242C2CCCF3C"]
+			id: "39BD15E37DD2B01C"
+			tasks: [{
+				id: "069021CAEE611130"
+				type: "item"
+				item: "irons_spellbooks:inscription_table"
+				consume_items: false
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "364D3C4B4475BC0D"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			description: ["Además de saquear estructuras, fabricar una forja de pergaminos es una alternativa decente para obtenerlos. Los materiales para la forja de pergaminos se pueden encontrar en el Nether.\\n\\n¡Usa la barra de búsqueda en tu inventario para buscar diferentes recetas de pergaminos! Ten en cuenta que solo se pueden fabricar pergaminos de Nivel 1. La mejora de niveles de pergaminos vendrá después."]
+			dependencies: ["5D6F2EF2A0FABB1E"]
+			id: "5178B560C8B827E3"
+			tasks: [{
+				id: "56950BA8A3BB0936"
+				type: "item"
+				item: "irons_spellbooks:scroll_forge"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Equipo básico para magos"
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			description: ["El mejor equipo inicial para un Mago sería el Conjunto de Mago Errante, el cual requiere de la mesa de herrería para ser fabricado."]
+			dependencies: ["43BE75F09C4043F8"]
+			id: "4E54C208CEF187D1"
+			tasks: [{
+				id: "63C62CE5AFA476B1"
+				type: "checkmark"
+				title: "¡Sopas!"
+			}]
+		}
+		{
+			title: "Equipo para Magos Avanzados"
+			icon: {
+				id: "irons_spellbooks:pyromancer_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"Más allá del Conjunto de Mago Errante, los magos pueden fabricar equipos específicos de elementos que potencian la capacidad de lanzar hechizos de dichos elementos."
+				"\\nPara fabricar este equipo específico de clase, los magos deben obtener runas elementales. Los materiales de estas runas a veces requieren rituales para completarse. ¡Usa la función de búsqueda de recetas para reflexionar!"
+			]
+			dependencies: ["4E54C208CEF187D1"]
+			id: "1EE082F0F108BFBA"
+			tasks: [{
+				id: "21F74BED3827CB09"
+				type: "checkmark"
+				title: "¡Chido!"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Uno de los materiales más importantes para la artesanía mágica. Solo se puede obtener saqueando y derrotando a usuarios mágicos."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4CEED19552F9272D"
+			tasks: [{
+				id: "04C0D0354D3DFBA3"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Mejorando tu Equipo"
+			icon: {
+				id: "irons_spellbooks:pumpkin_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"Para mejorar tu equipo, necesitarás un orbe de mejora y un yunque arcano. La receta de creación de un orbe de mejora puede ser costosa, siendo los elementos más difíciles de conseguir los restos arcanos y la esencia de ceniza."
+				"\\n"
+				"Puedes mejorar una pieza de equipo de mago hasta 3 veces. Diferentes orbes de mejora otorgan bonificaciones de estadísticas distintas, como aumento de daño elemental o aumento de maná."
+			]
+			dependencies: [
+				"1EE082F0F108BFBA"
+				"5C76F132FD8587F9"
+				"607E8D1ADA6ED3A0"
+			]
+			id: "37B5F30D3F4B99F6"
+			tasks: [{
+				id: "3BE9AFC332C9476E"
+				type: "checkmark"
+				title: "¡Okay!"
+			}]
+			rewards: [{
+				id: "56DD80B6574EC6C2"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: ["La base para todas las demás runas que se pueden fabricar. Se puede encontrar en estructuras mágicas o en los magos que residen en esas estructuras."]
+			dependencies: ["0614C37C1534939E"]
+			id: "49B1AA2C35454C74"
+			tasks: [{
+				id: "1B902538D23196EB"
+				type: "item"
+				item: "irons_spellbooks:blank_rune"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "Localizando al Rey Muerto"
+			x: -0.7d
+			y: 1.4d
+			description: [
+				"El Rey Muerto es un poderoso no muerto que reside en su catacumba, profundamente bajo tierra. La única manera de encontrarlo es fabricar y seguir la brújula errante."
+				"\\nEste esqueleto utiliza poderosos hechizos para repeler a los saqueadores de tumbas. ¡No lo intentes a menos que estés completamente preparado! Por otro lado, si eres capaz de ponerlo a descansar, la recompensa es más que satisfactoria... ¡Podría incluso impulsar tu viaje en la hechicería a nuevas alturas!"
+			]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.4d
+			id: "73A2334F5E27719A"
+			tasks: [{
+				id: "45DD5B0FAD17B43A"
+				type: "item"
+				item: {
+					id: "irons_spellbooks:wayward_compass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Campo de Batalla Antiguo"
+			icon: {
+				id: "mutantmonsters:mutant_skeleton_skull"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.3d
+			y: 2.6d
+			description: ["El Campo de Batalla Antiguo se puede encontrar en el Nether. Puedes revivir a los Caballeros Antiguos extrayendo los montones de armadura con un pico."]
+			dependencies: ["0614C37C1534939E"]
+			size: 1.3d
+			id: "28F664AE3CBA9E87"
+			tasks: [{
+				id: "04B7F97553E6079A"
+				type: "checkmark"
+				title: "Aterrador..."
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Un componente necesario para fabricar un orbe de mejora. SOLO se puede obtener derrotando a los caballeros antiguos en el campo de batalla antiguo."]
+			dependencies: ["28F664AE3CBA9E87"]
+			id: "0CFC93A854B6EBE1"
+			tasks: [{
+				id: "3727B06E2FE205B4"
+				type: "item"
+				item: "irons_spellbooks:cinder_essence"
+			}]
+			rewards: [{
+				id: "155E77020EC84993"
+				type: "item"
+				item: "irons_spellbooks:arcane_essence"
+				count: 4
+			}]
+		}
+		{
+			title: "Obtener Pergaminos"
+			icon: "ob_core:scroll_primitive_rites"
+			x: -5.25d
+			y: 0.0d
+			description: ["Hay dos maneras principales de obtener pergaminos."]
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.5d
+			id: "5D6F2EF2A0FABB1E"
+			tasks: [{
+				id: "4DB549B82B05387F"
+				type: "checkmark"
+				title: "¡Muestrame!"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Se utiliza para mejorar pergaminos, mejorar equipo e imbuir armas."]
+			dependencies: ["39BD15E37DD2B01C"]
+			id: "5C76F132FD8587F9"
+			tasks: [{
+				id: "65079F0A627BA537"
+				type: "item"
+				item: "irons_spellbooks:arcane_anvil"
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["El orbe base para mejorar tu equipo. Necesita ser imbuido con runas para poder usarlo."]
+			dependencies: ["0CFC93A854B6EBE1"]
+			id: "607E8D1ADA6ED3A0"
+			tasks: [{
+				id: "450C6924ABAA82D0"
+				type: "item"
+				item: "irons_spellbooks:upgrade_orb"
+			}]
+		}
+		{
+			title: "Reliquias Únicas \\& Grimorios"
+			icon: "irons_spellbooks:emerald_stoneplate_ring"
+			x: -6.8d
+			y: -2.55d
+			description: ["En cada etapa de tus aventuras, asegúrate de estar atento a anillos, grimorios únicos, grimorios nombrados y recursos mágicos."]
+			hide_dependency_lines: true
+			dependencies: ["43BE75F09C4043F8"]
+			size: 1.7d
+			id: "142D6C7E522A3208"
+			tasks: [{
+				id: "128B025C180FB6B2"
+				type: "checkmark"
+				title: "¡Chimba!"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["Componente requerido para fabricar un pergamino. Se puede encontrar en estructuras mágicas o en criaturas mágicas poderosas."]
+			dependencies: ["0614C37C1534939E"]
+			id: "4200E32F0492E2E3"
+			tasks: [{
+				id: "58DEDE820A0E14A3"
+				type: "item"
+				item: "irons_spellbooks:common_ink"
+			}]
+		}
+		{
+			title: "Haciendo Tu Primer Pergamino"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				Count: 1b
+				tag: {
+					ISB_spell: {
+						type: 1
+						level: 1
+					}
+				}
+			}
+			x: -7.5d
+			y: 4.0d
+			description: ["Con tanto tinta como una forja de pergaminos, ¡estás listo para hacer tu primer pergamino!"]
+			dependencies: [
+				"5178B560C8B827E3"
+				"4200E32F0492E2E3"
+			]
+			id: "55DE5FDCFC67E4A2"
+			tasks: [{
+				id: "454D6DA7C5585A1B"
+				type: "checkmark"
+				title: "¡Gracias!"
+			}]
+			rewards: [{
+				id: "62DD7A9F0FD11783"
+				type: "item"
+				item: "irons_spellbooks:magic_cloth"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
