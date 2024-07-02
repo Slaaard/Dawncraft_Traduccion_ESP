@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "¡Genial!"
+    },
+    "description": {
+      "text": "Dicen que hay un bioma dentro de esta dimensión en el que fluyen vapores sobre aguas termales hirvientes y una niebla mágica cubre toda la montaña. Valiente aventurero, si alguna vez te encuentras con un lugar así, ¡por favor regresa y cuéntame cómo es en realidad!"
+    }
+  }
+}

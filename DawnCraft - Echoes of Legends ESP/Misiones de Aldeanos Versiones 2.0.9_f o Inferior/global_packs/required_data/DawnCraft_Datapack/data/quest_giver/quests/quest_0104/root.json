@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Hola! ¿Puedes conseguir $(red)16 flechas$() del arquero local? Te lo pagaré después."
+    }
+  }
+}

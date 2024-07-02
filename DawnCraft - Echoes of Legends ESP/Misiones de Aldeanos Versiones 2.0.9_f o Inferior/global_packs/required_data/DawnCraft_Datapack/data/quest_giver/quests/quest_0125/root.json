@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "¡Tengo una habilidad para enseñarte, pero cuesta 15 esmeraldas!"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "Tráeme un trozo de papel, te mostraré dónde está en el papel."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Aquí, es bastante fácil de ver una vez que te acerques. Buena suerte y tráeme lo que caiga."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:giant_hideout \"Solicitud de exterminio - El Gigante\"",
+		"id": "quest_giver:command"
+	},  
+    {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

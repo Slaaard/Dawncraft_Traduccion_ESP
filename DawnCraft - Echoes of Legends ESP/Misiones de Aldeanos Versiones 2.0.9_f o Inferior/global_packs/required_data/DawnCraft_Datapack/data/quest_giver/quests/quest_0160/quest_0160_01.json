@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Una tarea imposible!"
+    },
+    "description": {
+      "text": "Antes de confiarte los lanzadores de ender, debes realizar dos tareas para demostrar tu valía: Extinguir un Centinela de Pipelin de las dunas infernales del Nether y esquilar una colonia de hongos completamente madura. Ten en cuenta que necesitarás desarrollar un suelo rico para lograrlo."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "¡Gracias!"
+    },
+    "description": {
+      "text": "¡Felicidades! Aquí está. Este lanzador tiene un poderoso impacto cargado con una fuente de energía masiva."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "incendium:infernal_dunes/pipeline/kill_sentry"
+    },
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "farmersdelight:main/get_mushroom_colony"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "wom:ender_blaster"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

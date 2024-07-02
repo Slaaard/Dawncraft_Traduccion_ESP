@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "¿Y qué tal?"
+		},
+		"description": {
+			"text": "Puedo enseñarte la habilidad - Tenacidad de Flechas por 15 esmeraldas. ¿Qué te parece?"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "¡Gracias!"
+		},
+		"description": {
+			"text": "Aquí tienes."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 30
+	}],
+	"rewards": [{
+		"command": "give @p epicfight:skillbook{skill:\"wom:arrow_tenacity\"}",
+		"id": "quest_giver:command"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Sculk"
+		},
+		"description": "Mientras estaba minando, encontré algo extraño en lo profundo de las piedras abisales. Esporas infestadas y sonidos agudos y chirriantes rodeaban el área. Escuché de otros mineros que estas infestaciones se llaman $(red)sculks$(), y que tuve suerte de salir con vida... Sin embargo, estoy fascinado por los sonidos chirriantes y las infestaciones. ¿Sería posible que me consiguieras uno de esos $(red)gritadores de sculk$() del Deep Dark?"
+	}
+}

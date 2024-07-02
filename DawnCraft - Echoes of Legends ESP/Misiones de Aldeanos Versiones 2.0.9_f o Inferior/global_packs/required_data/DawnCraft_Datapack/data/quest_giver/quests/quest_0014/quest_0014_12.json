@@ -1,0 +1,28 @@
+{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "¡El Fin... es solo el Comienzo?"
+    },
+    "description": {
+      "text": "Si debes saberlo... El dios que corrompió al dragón del End... Aún está muy vivo. Pero ese ser es simplemente demasiado poderoso, incluso para ti. El mapa para llegar hasta él lo tiene el guardián del End. En cuanto al paradero del guardián del End... Nuestros enderianos pueden tener una pista. No te aconsejo que sigas esto. Ya has hecho más que suficiente."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "El Verdadero Final"
+    },
+    "description": {
+      "text": "Yo... Lamento haber dudado de ti. Eres, verdaderamente, único.                                      - Fin de la Misión Principal -"
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:advancement",
+      "advancement": "simple_mobs:matardiosdeloslementos"
+    }
+  ],
+  "rewards": []
+}

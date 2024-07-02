@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 15,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "¿Y bien?"
+		},
+		"description": {
+			"text": "Puedo enseñarte la habilidad - Parada Vengativa por 15 esmeraldas."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "¡Gracias!"
+		},
+		"description": {
+			"text": "Aquí tienes."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 15
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"wom:vengeful_parry\"}",
+		"id": "quest_giver:command"
+	}]
+}

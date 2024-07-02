@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Hola aventurero. Las armas legendarias Herrscher y Gesetz descansan conmigo, a la espera de que demuestres tu valía antes de que te sean otorgadas."
+    }
+  }
+}

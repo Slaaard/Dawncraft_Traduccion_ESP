@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Niño Perdido"
+    },
+    "description": {
+      "text": "Por favor, ve a salvar al niño y tráelo de vuelta aquí."
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "Niño Perdido: Completado"
+    },
+    "description": {
+      "text": "Eres un héroe por lo que has hecho, aventurero. Nunca olvidaremos lo que has hecho por nosotros. Aquí, te enseñaré una nueva habilidad de combate: Cosecha Mortal."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

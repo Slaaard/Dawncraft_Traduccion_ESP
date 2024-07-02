@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Conocí a un fantasma cuando estaba minando... Fue una noche horrible con criaturas apareciendo por todas partes a mi alrededor, pero este espíritu amable me protegió de cada monstruo que se acercaba. Antes de irme al pueblo, el espíritu me dijo que buscara aventureros y los trajera hacia él."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "¡Hola!"
+    },
+    "description": {
+      "text": "Empuño la espada legendaria: Tormento. Sin embargo, para ganarte su lealtad, debes demostrar tu valor y valía."
+    }
+  }
+}
