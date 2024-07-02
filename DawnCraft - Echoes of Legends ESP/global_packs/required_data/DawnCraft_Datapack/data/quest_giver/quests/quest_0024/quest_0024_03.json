@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+			"text": "Exilio Voluntario"
+		},
+		"description": {
+			"text": "Tengo un desafío secundario para ti: ¡Derrota a un Capitán Saqueador! Recuerda beber leche antes de regresar... ¡Te mataré si traes a esos molestos saqueadores de vuelta a nosotros!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Exilio Voluntario: Completado"
+		},
+		"description": {
+			"text": "Buen trabajo. Espera... ¿Bebiste la leche, verdad?"
+		}
+	},
+	"tasks": [{
+		"id": "dawncraft:advancement",
+		"advancement": "minecraft:adventure/voluntary_exile"
+	}],
+	"rewards": [{
+		"id": "quest_giver:item",
+		"item": {
+			"item": "minecraft:emerald",
+			"count": 2
+		}
+	}]
+}
