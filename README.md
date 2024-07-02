@@ -15,10 +15,10 @@ Este repositorio ha sido creado con el objetivo de proporcionar una traducción 
 - **global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests**
 - **Misiones de Aldeanos Traducidas** - Por: Mexes-GM (https://github.com/Mexes-GM)
 
-- #Instalación
+##Instalación
 - **Paso 1: Ubicar tu carpeta raíz del modpack**
 - Ejemplo: C:\Users\juanito\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends
-- **Paso 2: Si no te interesa volver a usar las versiones en ingles o respaldarlas por cualquier cosa, copia la carpeta config y global_packs y pegalos en tu directorio raíz de Dawncraft, ¡¡Si o Si!! te debe pedir reemplazar archivos, reemplazalos y ya tendrías traducido las misiones principales, las clases de dawncraft y misiones de los aldeanos.
+- **Paso 2: Si no te interesa volver a usar las versiones en ingles o respaldarlas por cualquier cosa, copia la carpeta config y global_packs y pegalos en tu directorio raíz de Dawncraft, ¡¡Si o Si!! te debe pedir reemplazar archivos, reemplazalos y ya tendrías traducido las misiones principales, las clases de dawncraft y misiones de los aldeanos.**
 - **Paso 3: Si quieres respaldar o en futuro volver a usar la version en Ingles puedes ver el video tutorial que hice, espero te ayude!**
 
-- #VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA:
+##VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA:
