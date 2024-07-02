@@ -7,22 +7,21 @@
       "text": "Niño Perdido"
     },
     "description": {
-      "text": "Por favor, ve a salvar al niño y tráelo de vuelta aquí."
+      "text": "Por favor, ayudanos y ve a salvar al niño y tráelo de vuelta aquí con su madresita."
     }
-
   },
   "complete": {
     "title": {
       "text": "Niño Perdido: Completado"
     },
     "description": {
-      "text": "Eres un héroe por lo que has hecho, aventurero. Nunca olvidaremos lo que has hecho por nosotros. Aquí, te enseñaré una nueva habilidad de combate: Cosecha Mortal."
+      "text": "Eres un héroe por lo que hiciste, aventurero. Nunca olvidaremos lo que has hecho por nosotros. Vente mi heroe, te enseñaré una nueva habilidad de combate: Cosecha de Muerte."
     }
   },
   "tasks": [
     {
-      "id": "afptweaks:follow_quest",
-       "structure": "#minecraft:village"
+      "id": "dawncraft:follow_quest",
+      "structure": "#minecraft:village"
     }
   ],
   "rewards": [

@@ -4,23 +4,23 @@
   "icon": "minecraft:ender_pearl",
   "start": {
     "title": {
-      "text": "El Final del Camino"
+      "text": "El Fin del Camino"
     },
     "description": {
-      "text": "No tengo más información para darte mi amigo. Sigue tu instinto."
+      "text": "No tengo más información que darte, amigo mío. Sigue tu lo que dicte tu corazón"
     }
   },
   "complete": {
     "title": {
-      "text": "El Fin... ¿es solo el Comienzo??"
+      "text": "¿El Fin... es solo el Comienzo??"
     },
     "description": {
-      "text": "Entonces... has derrotado al dragón. Supongo que eso te convierte en el nuevo gobernante del reino. Felicitaciones, valiente conquistador. Has hecho... todo lo que podías. Ahora, si me disculpas."
+      "text": "Así que... has derrotado al dragón. Supongo que eso te convertiría en el nuevo gobernante del reino. Felicitaciones, valiente conquistador. Has hecho... todo lo que podías. Ahora, si me disculpas."
     }
   },
   "tasks": [
     {
-		"id": "afptweaks:advancement",
+		"id": "dawncraft:advancement",
 		"advancement": "minecraft:end/kill_dragon"
     }
   ],

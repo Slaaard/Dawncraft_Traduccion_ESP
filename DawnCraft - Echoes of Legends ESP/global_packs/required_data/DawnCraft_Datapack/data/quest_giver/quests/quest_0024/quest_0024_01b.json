@@ -4,10 +4,10 @@
   "icon": "minecraft:bow",
   "start": {
     "title": {
-      "text": "Ayuda"
+      "text": "¡¡Hermanito ayudanosss!!"
     },
     "description": {
-      "text": "Los saqueadores han secuestrado a un niño de nuestro pueblo... Por favor, ve a rescatarlo y tráelo de vuelta a casa. Los guardias aquí están ocupados con sus deberes de patrulla, eres nuestra única esperanza."
+      "text": "Los saqueadores han secuestrado a un niño de nuestra aldea... Por favor, ve a salvarlo y tráelo de vuelta a casa. Los guardias aquí están abrumados con las patrullas, eres nuestra única esperanza."
     }
   }
 }
