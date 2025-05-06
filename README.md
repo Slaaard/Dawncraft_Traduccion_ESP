@@ -5,7 +5,7 @@ La intención es evitar incongruencias en los textos y asegurar una experiencia 
 
 ---
 
-## ❗ IMPORTANTE: Compatibilidad con versiones del ModPack
+## ⚠️⚠️IMPORTANTE⚠️⚠️: ‼️Compatibilidad con versiones del ModPack‼️
 
 ### 🔻 Para versiones: `2.0.9_f` o inferiores y `2.0.9_f2` o superiores
 - Usa la carpeta correspondiente, de lo contrario **NO FUNCIONARÁ**.
