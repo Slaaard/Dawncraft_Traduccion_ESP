@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ayuda"
+    },
+    "description": {
+      "text": "Hay un $(red)gigante$()que vive cerca de nosotros.Algunos de nuestros aldeanos y guardias ya han sido asesinados por él.Los guardias, incluido yo, están demasiado intimidados por su gran tamaño.Pero hasta donde sabemos, no es demasiado fuerte o inteligente.Creo que podrás enfrentarlo."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 16,
+	"icon": "minecraft:iron_pickaxe",
+	"start": {
+		"title": {
+			"text": "Corazón de Dragón"
+		},
+		"description": "Resulta que tengo algo que podría interesarte: Orbes Espirituales. Son prácticamente inútiles para mí. Pero supongo que aventureros como tú darían lo que fuera por conseguirlos... ¿verdad? Te haré una oferta. Consígueme un $(red)Corazón de Dragón de Fuego$(). Y te daré todos los orbes que tengo. ¿Te parece justo?"
+	}
+}

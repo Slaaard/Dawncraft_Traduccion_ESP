@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Forajidos Extranjeros"
+    },
+    "description": {
+      "text": "¿Puedes traerme un trozo de papel? Te dibujaré un mapa."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aquí."
+    },
+    "description": {
+      "text": "Aquí, el grupo de forajidos extranjeros construyó un lugar donde está la marca. Ve y elimina al líder."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"Dojo de los Forajidos Extranjeros\"",
+      "id": "quest_giver:command"
+    },   
+    {
+      "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

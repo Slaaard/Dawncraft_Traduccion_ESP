@@ -1,0 +1,18 @@
+{
+	"class.dawncraft.brawler": "Luchador",
+	"class.dawncraft.astrologer": "Astrólogo",
+	"class.dawncraft.ronin": "Ronin",
+	"class.dawncraft.warrior": "Guerrero",
+	"class.dawncraft.berserker": "Berserker",
+	"class.dawncraft.tank": "Tanque",
+	"class.dawncraft.lancer": "Lancero",
+	"class.dawncraft.roamer": "Errante",
+	"class.dawncraft.brawler.desc": "Los Luchadores tienen una salud muy por encima del promedio y una estamina promedio, lo que los hace formidables en combates cuerpo a cuerpo con fuerza duradera.",
+	"class.dawncraft.astrologer.desc": "Los Astrólogos, con poca salud y estamina por debajo del promedio, su fortaleza radica en el poderoso Paso del Ender para movimientos estratégicos, complementado por un libro de hechizos básico para lanzar magia.",
+	"class.dawncraft.ronin.desc": "Con poca salud y estamina promedio, los Ronin son guerreros ágiles que empuñan katanas, infligiendo golpes precisos mientras evitan hábilmente el daño.",
+	"class.dawncraft.warrior.desc": "Campeones formidables con una estamina y salud por encima del promedio, lo que los convierte en una fuerza equilibrada en el campo de batalla.",
+	"class.dawncraft.berserker.desc": "Ferocidad implacable equilibrada con salud promedio y estamina por encima del promedio. Los Berserkers sobresalen en batallas prolongadas con habilidades especiales diseñadas para combates prolongados.",
+	"class.dawncraft.tank.desc": "Una salud alta y estamina por debajo del promedio definen la clase Tanque, construida para resistir asaltos implacables. Con una habilidad única de resistencia al aturdimiento, los Tanques son protectores inflexibles en el campo de batalla.",
+	"class.dawncraft.lancer.desc": "Los Lanceros, con salud y estamina promedio, muestran precisión y agilidad. Sobresalen en explotar los puntos débiles del enemigo y emplean una forma de Esquivar Rápida para maniobras de combate ágiles.",
+	"class.dawncraft.roamer.desc": "Armados con un arco y flechas, los Errantes abrazan la agilidad, con una salud por debajo del promedio y una estamina alta."
+}

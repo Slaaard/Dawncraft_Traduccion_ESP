@@ -1,0 +1,780 @@
+{
+	id: "6AAEB02A99CBCDA7"
+	group: "0A520B482648497B"
+	order_index: 3
+	filename: "witchcraft"
+	title: "Brujería"
+	icon: {
+		id: "hexerei:book_of_shadows"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bienvenido a Hexerei"
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 0.0d
+			description: ["¡Bienvenido a Hexerei! A través de esta cadena de misiones, aprenderás todo lo que necesitas saber sobre practicar la brujería."]
+			size: 2.0d
+			id: "758B99AACB978297"
+			tasks: [{
+				id: "27A8151F5396B022"
+				type: "checkmark"
+				title: "Leer"
+			}]
+			rewards: [{
+				id: "4675E9128CFFA4C1"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"Tu caldero básico de brujería. Aquí es donde elaborarás la mayoría de tus objetos."
+				""
+				"El uso de este bloque está bloqueado hasta completar una misión específica del Aldeano Clérigo. El conocimiento necesario para usar calderos puede desbloquearse en una misión encontrada más arriba, sin embargo, el precio es alto..."
+				""
+				"&b&lUso:"
+				"Los calderos pueden contener varios tipos de líquidos, que pueden verterse directamente en él. Algunas recetas de elaboración también pueden cambiar el líquido almacenado en un tipo diferente, que puede ser necesario para otras recetas. Los materiales adicionales necesarios para una receta de elaboración pueden ser arrojados al caldero o agregados a través del menú al que se accede haciendo clic derecho en el caldero. Una vez que se añaden los materiales necesarios, el objeto terminado puede ser recuperado haciendo clic derecho en el caldero para acceder al menú de elaboración."
+			]
+			dependencies: ["758B99AACB978297"]
+			size: 1.5d
+			id: "7D2C066D53F03275"
+			tasks: [{
+				id: "3B08C26FD9D9E6C2"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "50841D6410C37FA7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Desbloqueando el Conocimiento de los Calderos"
+			icon: "minecraft:written_book"
+			x: 0.0d
+			y: -2.6999999999999997d
+			description: ["Los Calderos de Hexerei requieren un nivel de conocimiento 2 para ser utilizados. Esto puede ser obtenido a través de una misión de un Aldeano Clérigo, sin embargo, aquellos que tengan problemas para encontrar esta misión o que no hayan logrado completarla pueden comprar el conocimiento aquí, ¡A un precio...!"]
+			dependencies: ["758B99AACB978297"]
+			size: 1.8d
+			id: "6A0035A4A88A4381"
+			tasks: [
+				{
+					id: "03CAA86634BACD2A"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 10L
+				}
+				{
+					id: "7FAB375F6FC02067"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+				}
+				{
+					id: "161659D5BDBC4C5F"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "0333232AE6BE4B35"
+				type: "command"
+				title: "Nivel de Conocimiento de Calderos 2"
+				icon: "minecraft:written_book"
+				command: "/pmmo admin @p add slayer level 2"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["Una mejora para el caldero, que te permite agregar sangre a tus recetas para los objetos que la requieran. Simplemente coloca el Sigil dentro del caldero a través del espacio del Sigil en la interfaz de elaboración del caldero, luego salta dentro para crear sangre. Saltar más veces añadirá más sangre. Otros líquidos y materiales pueden ser añadidos como de costumbre. Las recetas habituales que no requieran sangre todavía pueden ser elaboradas mientras el Sigil esté en el caldero."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "03B7E08CB2B2362E"
+			tasks: [{
+				id: "2C11E4C768995B1B"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+			rewards: [{
+				id: "761437E88A03A8AF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Coloca 6 piezas de grasa animal y 2 panales de miel en un caldero lleno de agua para producir sebo. Se utiliza para la creación de velas."]
+			dependencies: ["7D2C066D53F03275"]
+			id: "3BA3BF3785F2A9EC"
+			tasks: [{
+				id: "4AE93959A66AA10D"
+				type: "item"
+				item: "hexerei:tallow_bucket"
+			}]
+			rewards: [{
+				id: "64015B1B2A429D3F"
+				type: "item"
+				item: "minecraft:axolotl_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Coloca en un caldero lleno de sebo para usar. Agrega cuerdas al cucharón haciendo clic derecho con ellas para comenzar a sumergir velas."]
+			dependencies: ["3BA3BF3785F2A9EC"]
+			size: 1.3d
+			id: "3647588131AA1187"
+			tasks: [{
+				id: "1088092CDAA3BB70"
+				type: "item"
+				item: "hexerei:candle_dipper"
+			}]
+			rewards: [{
+				id: "133A5FDC003743E6"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["¡Guau! ¡Es una vela! Puede ser teñida y usada como un bloque decorativo. Enciéndela con una pedernal y acero para obtener luz con una duración limitada. Puede ser usada para crear candelabros. Varias velas pueden ser colocadas juntas en el mismo bloque."]
+			dependencies: ["3647588131AA1187"]
+			id: "430A7C370D3DCC00"
+			tasks: [{
+				id: "2BCF72CDA85612AD"
+				type: "item"
+				item: "hexerei:candle"
+			}]
+			rewards: [{
+				id: "4663243CCA17903D"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["Una luz decorativa. Puede ser encendida por un tiempo limitado. Puede ser colocada en un bloque sólido o colgada de una cadena. Se conecta automáticamente a los bloques de cadena por encima."]
+			dependencies: ["430A7C370D3DCC00"]
+			id: "7465B863C4896248"
+			tasks: [{
+				id: "21866190D068BF03"
+				type: "item"
+				item: "hexerei:candelabra"
+			}]
+			rewards: [{
+				id: "10A43274AADCD2B6"
+				type: "item"
+				item: "bloodandmadness:bullets/netherite_bullet"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Una hierba básica. Puede ser encontrada en pantanos y otros biomas, o cultivada a partir de semillas de salvia que comúnmente son soltadas por el pasto y plantas."]
+			dependencies: ["758B99AACB978297"]
+			id: "63426BF34D49D775"
+			tasks: [{
+				id: "1EF473CF02DD26D1"
+				type: "item"
+				item: "hexerei:sage"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["Usada para secar hierbas e ítems a base de hierbas. Haz clic derecho en un ítem para colgarlo, y agachate+click derecho para removerlo."]
+			dependencies: ["63426BF34D49D775"]
+			size: 1.3d
+			id: "1CFBAADF7DEF4EB8"
+			tasks: [{
+				id: "2EF4372341F1F841"
+				type: "item"
+				item: "hexerei:herb_drying_rack"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["Coloca en un plato de incienso para quemarlo. Evita que los mobs aparezcan en un radio. Observa el borde de la zona afectada a través de un efecto de \"anillo de humo\" que puede ser visto alrededor del área afectada. Puede ser recogido para pausar el efecto de quemado, y comenzarlo de nuevo en un momento posterior. Ideal para mantener las bases más seguras durante la noche."]
+			dependencies: ["1CFBAADF7DEF4EB8"]
+			id: "48D563E6DA99E3F9"
+			tasks: [{
+				id: "0705929F3C22599C"
+				type: "item"
+				item: {
+					id: "hexerei:dried_sage_bundle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["Coloca manojos de salvia seca en este plato y enciende con pedernal y acero."]
+			dependencies: ["48D563E6DA99E3F9"]
+			id: "5049C85915A199E4"
+			tasks: [{
+				id: "59D32D1E615FCD65"
+				type: "item"
+				item: "hexerei:sage_burning_plate"
+			}]
+			rewards: [{
+				id: "29DA21012C54A1B1"
+				type: "item"
+				item: "plushies:cat"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Llena un caldero lleno de lava con arena para elaborar. Puede almacenar una gran cantidad de un tipo de planta o hierba. Haz clic mientras estás agachado para abrir el almacenamiento, o haz clic con una hierba o planta para almacenarla. Golpea para retirar, o agachado+golpea para retirar una stack completo. Puede ser etiquetado en un yunque. Puede ser recogido como una caja de shulker y colocado de nuevo mientras aún almacena ítems."]
+			dependencies: ["7D2C066D53F03275"]
+			id: "37BD6B0893D6BC03"
+			tasks: [{
+				id: "4D8C72601BC320A6"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "34A2B0CFEB80615A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.3d
+			y: 5.2d
+			description: [
+				"Almacena ítems y los muestra visualmente. Puede ser recogido junto con el contenido como una caja de shulker."
+				"Elabora con tinte para pintar."
+			]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "215893DA53A9DEBF"
+			tasks: [{
+				id: "0C00E6A5E3FA7E2C"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4F33550ECDDA374E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: [
+				"¡Permite el vuelo!"
+				""
+				"Agachate+click derecho para abrir el menú de la escoba. Desde aquí, puedes personalizar tu escoba y cambiar su configuración (flotar o aterrizar). IMPORTANTE: ¡Si te caes de la escoba en pleno vuelo y está en modo de flotación, se quedará arriba! Tendrás más facilidad para recuperar las escobas en modo de \"aterrizaje\"... a menos que aterrice en agua..."
+				""
+				"Las escobas se manejan de manera similar a un bote. Haz clic derecho para montar, shift+click derecho para desmontar. Mantén presionada la barra espaciadora para volar, o agáchate para descender."
+				"Golpea repetidamente para romper y recoger."
+			]
+			dependencies: ["03B7E08CB2B2362E"]
+			size: 1.3d
+			id: "5227F33207D38CFC"
+			tasks: [{
+				id: "321F1EAE5B2DDFB0"
+				type: "item"
+				item: {
+					id: "hexerei:willow_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3242836206FD9650"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "Más rápido, más duradero, resistente al fuego."
+			dependencies: ["5227F33207D38CFC"]
+			size: 1.3d
+			id: "428171D49BCEF30E"
+			tasks: [{
+				id: "175E4919A3D167BE"
+				type: "item"
+				item: {
+					id: "hexerei:mahogany_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "25C27CA0052284C6"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["Ayuda a encontrar pantanos y junglas para importantes objetos de crafteo de brujería. Mantén presionado Shift mientras te desplazas sobre el objeto para obtener una descripción detallada."]
+			dependencies: ["758B99AACB978297"]
+			id: "461139AB9A78151D"
+			tasks: [{
+				id: "05B36D539EB37236"
+				type: "item"
+				item: "hexerei:dowsing_rod"
+			}]
+			rewards: [{
+				id: "06AFF148FA5AB182"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Sangre embotellada. Mantén presionado Shift mientras te desplazas sobre el objeto para obtener más detalles. Usada en algunas recetas de crafteo."]
+			dependencies: ["03B7E08CB2B2362E"]
+			id: "4E6B5FEB5F44E947"
+			tasks: [{
+				id: "69FAD767D10404F7"
+				type: "item"
+				item: "hexerei:blood_bottle"
+			}]
+			rewards: [{
+				id: "3E14DA0B826A1DDC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["Añade a la ranura \"Bolsa\" de tu escoba. Aumenta la capacidad de almacenamiento de tu escoba."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "78FCEF109D9CB599"
+			tasks: [{
+				id: "24DC8616D09B033C"
+				type: "item"
+				item: "hexerei:small_satchel"
+			}]
+			rewards: [{
+				id: "1ACCA75AE8D08AA4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["Mejora aún más la capacidad de almacenamiento."]
+			dependencies: ["78FCEF109D9CB599"]
+			id: "7F5D2E60E4CD5CF5"
+			tasks: [{
+				id: "341BFCB412F72A7E"
+				type: "item"
+				item: "hexerei:medium_satchel"
+			}]
+			rewards: [{
+				id: "1E1996E84A37C349"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["Mejora enormemente la capacidad de almacenamiento."]
+			dependencies: ["7F5D2E60E4CD5CF5"]
+			id: "217AD1F73111EF57"
+			tasks: [{
+				id: "3AD757AEDBB3ACAC"
+				type: "item"
+				item: "hexerei:large_satchel"
+			}]
+			rewards: [{
+				id: "6871DF802AD758BC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["Anillos decorativos para tu escoba. Agréguelos a la ranura \"Decoración\"."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "6174E85ADB639FA2"
+			tasks: [{
+				id: "731ACE4E30681DC5"
+				type: "item"
+				item: "hexerei:gold_rings"
+			}]
+			rewards: [{
+				id: "5847523E6894FAC7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["Objeto decorativo para tu escoba. Fabrica con cualquier objeto para crear un llavero de ese objeto (¡El objeto será consumido!). Añádelo a la ranura \"Decoración\" de tu escoba para mostrar un llavero del objeto elegido."]
+			dependencies: ["6174E85ADB639FA2"]
+			id: "6A54AEC72104C48C"
+			tasks: [{
+				id: "09614B2230540949"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "73B766D43F0A8AC4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["Colocado en la ranura \"Cepillo\" de la escoba. Permite que la escoba funcione. Se degrada con el tiempo. Puede ser encantado para mejorar la durabilidad."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "0C80B91AFB6EB414"
+			tasks: [{
+				id: "0C1BD7D79C5A73DB"
+				type: "item"
+				item: {
+					id: "hexerei:broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C2A2F374E87E701"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["Un cepillo de escoba más duradero"]
+			dependencies: ["0C80B91AFB6EB414"]
+			id: "0BFAB3BEE1700004"
+			tasks: [{
+				id: "7C4DFC0CDD9AAC14"
+				type: "item"
+				item: {
+					id: "hexerei:herb_enhanced_broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E8EA8A193E22E08"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["Agrégalo a la ranura \"Agrégalo a la ranura\" en el menú de tu escoba. Mejora la resistencia al agua. Pierde durabilidad gradualmente en el agua. Permite volar en el agua."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "70C162E9A761F649"
+			tasks: [{
+				id: "70FB8A35BEE06BAE"
+				type: "item"
+				item: {
+					id: "hexerei:broom_waterproof_tip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CC9954CA71EB8C0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			description: ["Mejora la resistencia al fuego de la escoba. Permite volar en la lava."]
+			dependencies: ["70C162E9A761F649"]
+			id: "1E7E794756D864F1"
+			tasks: [{
+				id: "7297BE20FBE4E6AA"
+				type: "item"
+				item: {
+					id: "hexerei:broom_netherite_tip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "679C93B32EE52E4A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Varias hierbas pueden encontrarse en biomas de pantano. Estas son necesarias para muchas recetas de brujería."]
+			dependencies: ["63426BF34D49D775"]
+			id: "7CB413EE0146CF04"
+			tasks: [
+				{
+					id: "0CC84234811B452A"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+				}
+				{
+					id: "171360C04C8162BD"
+					type: "item"
+					item: "hexerei:mandrake_root"
+				}
+				{
+					id: "11DAE9A3B2A04786"
+					type: "item"
+					item: "hexerei:mugwort_flowers"
+				}
+				{
+					id: "028CE7DC8B67A275"
+					type: "item"
+					item: "hexerei:yellow_dock_flowers"
+				}
+				{
+					id: "749393FBA7EC95B2"
+					type: "item"
+					item: "hexerei:mugwort_leaves"
+				}
+				{
+					id: "6D04F0C52C4FACCF"
+					type: "item"
+					item: "hexerei:yellow_dock_leaves"
+				}
+			]
+			rewards: [{
+				id: "45737AFEDCC04E4F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["Usado para moler semillas en Mezcla de Semillas para domesticar cuervos."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "3B1A6973557F7E3C"
+			tasks: [{
+				id: "52204484270771E3"
+				type: "item"
+				item: "hexerei:pestle_and_mortar"
+			}]
+			rewards: [{
+				id: "2F8E07D7A91CD5BF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["Elaborado en un mortero. Aliméntalos a cuervos salvajes para tener la oportunidad de domesticarlos. Los cuervos se pueden encontrar en la mayoría de los biomas, como bosques y pantanos. Consulta la misión \"Flauta de Cuervo\" a continuación para una guía completa sobre el uso de cuervos."]
+			dependencies: ["3B1A6973557F7E3C"]
+			id: "4EEC8127EDECFC93"
+			tasks: [{
+				id: "31B40682E7140C13"
+				type: "item"
+				item: "hexerei:seed_mixture"
+			}]
+			rewards: [{
+				id: "09242CB6DDB7B51B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Crow Taming"
+			icon: {
+				id: "hexerei:crow_flute"
+				Count: 1b
+				tag: { }
+			}
+			x: -6.5d
+			y: 1.5d
+			description: [
+				"Los cuervos se pueden domesticar alimentándolos con Mezcla de Semillas. Una vez domesticados, se pueden controlar usando una Flauta de Cuervo."
+				""
+				"Agachate+clic derecho en un cuervo familiar para acceder a su menú. Desde aquí, puedes cambiar su modo de seguimiento, comportamiento y equipar varios objetos decorativos."
+				""
+				"&b&lModo de Seguimiento"
+				"Al configurar un modo de seguimiento, puedes cambiar cómo el cuervo sigue al jugador. Puede seguir/percharse en el hombro del jugador, vagar o sentarse. Configura el cuervo en modo \"Ayuda\" para habilitar sus funciones de recolección."
+				""
+				"&b&lRecolección"
+				"Los cuervos en modo de recolección recogerán objetos cercanos y los colocarán en un cofre cercano. Los tipos de objetos que deseas recoger deben estar ya presentes en el cofre. Los cuervos deben estar configurados para posarse en un cofre para depositar objetos (ver sección \"Flauta de Cuervo\")."
+				""
+				"&b&lCosecha"
+				"Los cuervos en modo de cosecha cosecharán cultivos cercanos. Esto incluye cultivos generados naturalmente y algunas plantas (como las plantas de Hexerei que se encuentran en los biomas de pantano). Se pueden combinar con cuervos recolectores para automatizar completamente tu granja. Lo mejor es usarlo con la flauta de cuervo (ver abajo)."
+				""
+				"&b&lFlauta de Cuervo"
+				"Agachate+clic derecho mientras sostienes la flauta de cuervo para acceder al menú de la flauta. Este menú es similar al menú del cuervo, pero se puede usar para seleccionar y comandar múltiples cuervos, así como para establecer puntos de hogar para cuervos individuales o grupos de cuervos. Elegir la opción \"Seleccionar\" te permitirá hacer clic derecho en los cuervos con la flauta para seleccionarlos o deseleccionarlos. Cambiar a modo \"Percha\" te permitirá establecer una ubicación de percha para todos los cuervos seleccionados actualmente. Cambiar cualquiera de los ajustes de seguimiento/ayuda cambiará esos ajustes para todos los cuervos seleccionados a la vez. Es ideal para dirigir un gran número de cuervos a la vez, y la única manera de establecer ubicaciones de percha para cuervos. Haz clic derecho con la flauta para activar la función seleccionada."
+				""
+				"&b&lRobo"
+				"Los cuervos en modo de robo robarán a los aldeanos cercanos y dejarán caer los objetos robados en su ubicación de percha. Configúralos para posarse en un embudo o tolva para un fácil depósito en cofres. Roban una variedad de objetos, incluyendo esmeraldas. Los cuervos volarán alrededor después de robar antes de depositar para evitar ser detectados."
+				""
+				"&b&lReproducción"
+				"Se les puede dar pepitas de oro a varios cuervos domesticados para que se reproduzcan."
+			]
+			dependencies: ["4EEC8127EDECFC93"]
+			size: 1.5d
+			id: "1BBB911894B0070A"
+			tasks: [{
+				id: "0AEF524248C91795"
+				type: "item"
+				item: {
+					id: "hexerei:crow_flute"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57EB6375A9C8A606"
+				type: "item"
+				item: "plushies:parrot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			description: ["Elaborado en un caldero, la tela infundida es esencial para fabricar tu uniforme de bruja."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "4321174BCD4E13A9"
+			tasks: [{
+				id: "22BA0C96D97B6733"
+				type: "item"
+				item: "hexerei:infused_fabric"
+			}]
+			rewards: [{
+				id: "1BFBD1DE9E4C3CCC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			description: ["El uniforme de bruja. Un poco más fuerte que la armadura de hierro, y proporciona una serie de efectos útiles. Permite al jugador mezclarse con las brujas."]
+			dependencies: ["4321174BCD4E13A9"]
+			id: "631CBCD0CA912A0C"
+			tasks: [
+				{
+					id: "27FA4D3B634D167E"
+					type: "item"
+					item: {
+						id: "hexerei:witch_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B8AFF6CCF8A06D9"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F9B3A46FD031E7A"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20638792E0F8E723"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			description: ["Un sombrero de bruja mejorado cosméticamente."]
+			dependencies: ["631CBCD0CA912A0C"]
+			id: "6256CF4A57FEC937"
+			tasks: [{
+				id: "380BE5CBFFEA6B24"
+				type: "item"
+				item: {
+					id: "hexerei:mushroom_witch_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AE3D5DC99D59639"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "¡Hola de nuevo!"
+    },
+    "description": {
+      "text": "Valiente Hombre. Por favor, déme un trozo de papel para que pueda mostrarte dónde está la criatura."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Toma."
+    },
+    "description": {
+      "text": "Toma Sin embargo, el clérigo es el que nos proporcionó esta información.Así que no estoy seguro de si es completamente preciso.De cualquier manera, encuentra a esta criatura, mata y trae de vuelta lo que caiga."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+	{
+		"command": "/dc addWaypoint @p quest_giver:cave_dwelling \"Solicitud de exterminio - Regaler de cuevas\"",
+		"id": "quest_giver:command"
+	},
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

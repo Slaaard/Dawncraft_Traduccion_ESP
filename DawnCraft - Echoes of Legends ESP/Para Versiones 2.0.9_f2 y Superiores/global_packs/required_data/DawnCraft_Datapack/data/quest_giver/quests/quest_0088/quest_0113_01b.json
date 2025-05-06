@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "ayuda"
+    },
+    "description": {
+      "text": "He escuchado de los viajeros errantes que avistaron hace un tiempo un monstruo gigantesco con espinas de gemas en su espalda. Dicen que se encontraba en un área cubierta de espinas de obsidiana... Estoy muy curioso por las gemas que posee esta criatura. ¿Podrías traerme un trozo de papel? Te mostraré dónde está."
+    }
+  }
+}

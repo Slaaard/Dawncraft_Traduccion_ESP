@@ -1,0 +1,306 @@
+{
+	id: "7F8D9817A4A5C1AE"
+	group: "0A520B482648497B"
+	order_index: 6
+	filename: "reforging_and_socketing"
+	title: "Reforja y Engaste"
+	icon: "apotheosis:gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Reforja y Engaste"
+			icon: "apotheosis:gem"
+			x: 0.0d
+			y: 0.0d
+			description: ["El equipamiento en DawnCraft se puede mejorar mediante la reforja de su calidad, así como también engastando gemas en el mismo. Esta cadena de misiones te explicará las mecánicas para recuperar materiales del equipamiento, reforjarlo y engastar/eliminar gemas."]
+			size: 2.0d
+			id: "2E51B03DF4811F84"
+			tasks: [{
+				id: "2993D7B3A7687926"
+				type: "checkmark"
+				title: "Leer"
+			}]
+			rewards: [{
+				id: "6AC0B8DDA084A591"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["Usado para engastar gemas en el equipo. El equipo debe tener ranuras vacías para poder engastar las gemas."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "12C0F6007CB35919"
+			tasks: [{
+				id: "05BD00D176F287FD"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+			rewards: [{
+				id: "510CA775E95F7CC5"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Utiliza materiales de rareza obtenidos de la Mesa de Recuperación y Polvo de Gema obtenido al triturar gemas para reforjar el equipo. La reforja puede volver a tirar las estadísticas de una pieza de equipo con la misma rareza, o puede cambiar la rareza de una pieza de equipo (incluso una pieza que aún no tenga rareza)."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "682B2B244574C666"
+			tasks: [{
+				id: "74A116EDF1FAFD4F"
+				type: "item"
+				item: "apotheosis:reforging_table"
+			}]
+			rewards: [{
+				id: "1AFEE7035150A752"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Se utiliza para recuperar materiales usados para la reforja del equipo. La cantidad de material obtenido es aleatoria y el tipo de material corresponde a la rareza del equipo destruido."]
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.5d
+			id: "719B2897D9858A1F"
+			tasks: [{
+				id: "52813161EBA7BB86"
+				type: "item"
+				item: "apotheosis:salvaging_table"
+			}]
+			rewards: [{
+				id: "7CDA8FDC8F6FFADF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"Se puede agregar a un objeto a través de la Mesa de Herrería para agregar una ranura adicional (Máximo 3 ranuras)"
+				"Se puede obtener mediante la creación, o rara vez en misiones o cofres del tesoro."
+			]
+			dependencies: ["2E51B03DF4811F84"]
+			id: "22978B8A8D62A2A6"
+			tasks: [{
+				id: "3A7A389A9EBD4AA0"
+				type: "item"
+				item: "apotheosis:sigil_of_socketing"
+			}]
+			rewards: [{
+				id: "49AF0E101D95BC61"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"Sigilo de Engaste Mejorado, obtenido por infusión (consulta la pestaña de misiones de Encantamiento para más información)."
+				"Se puede utilizar para agregar hasta un máximo de 4 ranuras a un objeto."
+			]
+			dependencies: ["22978B8A8D62A2A6"]
+			id: "54D504E6734D9B70"
+			tasks: [{
+				id: "2E02FAD0AD62647B"
+				type: "item"
+				item: "apotheosis:superior_sigil_of_socketing"
+			}]
+			rewards: [{
+				id: "6192ADA58D23484C"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Se obtiene al triturar gemas. Para triturar una gema (o varias), arroja(las) al suelo. Luego, coloca un yunque sobre las gemas al menos a un bloque de distancia para que caiga sobre ellas asi triturá las gemas en polvo. De esta manera se pueden triturar muchas gemas a la vez. Cada caída dañará ligeramente el yunque."]
+			dependencies: ["682B2B244574C666"]
+			id: "2CCE38B89AB683B8"
+			tasks: [{
+				id: "3DC6710BD468209A"
+				type: "item"
+				item: "apotheosis:gem_dust"
+			}]
+			rewards: [{
+				id: "1D98087FDB4988BC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["719B2897D9858A1F"]
+			id: "3E0F33C5ABF2ECE8"
+			tasks: [{
+				id: "2C1615B13AE0AD04"
+				type: "item"
+				item: "apotheosis:common_material"
+			}]
+			rewards: [{
+				id: "1A86A91D92E2659C"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["3E0F33C5ABF2ECE8"]
+			id: "125B4FADD8BA4CAD"
+			tasks: [{
+				id: "1520900CFAD2F170"
+				type: "item"
+				item: "apotheosis:uncommon_material"
+			}]
+			rewards: [{
+				id: "3FE60FF5694FBFDF"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["125B4FADD8BA4CAD"]
+			id: "4C4998B8BC343DC9"
+			tasks: [{
+				id: "2EADA33D95550D5E"
+				type: "item"
+				item: "apotheosis:rare_material"
+			}]
+			rewards: [{
+				id: "16A18EEFF93EDF78"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["4C4998B8BC343DC9"]
+			id: "2F07E8985E2204DB"
+			tasks: [{
+				id: "12B6867239E76D6B"
+				type: "item"
+				item: "apotheosis:epic_material"
+			}]
+			rewards: [{
+				id: "290E16E14A765F9C"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["2F07E8985E2204DB"]
+			id: "607EDB2F3E7EE94E"
+			tasks: [{
+				id: "7933064576FA5ECB"
+				type: "item"
+				item: "apotheosis:mythic_material"
+			}]
+			rewards: [{
+				id: "41416CA43B08A12C"
+				type: "item"
+				item: "plushies:warden"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["Forjado con un objeto en la Mesa de Herrería, extrae gemas del equipo, destruyendo el equipo en el proceso."]
+			dependencies: ["12C0F6007CB35919"]
+			id: "0036F6587BAA1FA6"
+			tasks: [{
+				id: "4A8C71967AD1D4A5"
+				type: "item"
+				item: "apotheosis:vial_of_extraction"
+			}]
+			rewards: [{
+				id: "6AAD81F19C63CE57"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["Forjado con un objeto en la Mesa de Herrería para extraer gemas del equipo, destruyendo el equipo en el proceso."]
+			dependencies: ["12C0F6007CB35919"]
+			id: "653AFC11D8BA880E"
+			tasks: [{
+				id: "696A798201736794"
+				type: "item"
+				item: "apotheosis:vial_of_expulsion"
+			}]
+			rewards: [{
+				id: "0C9AA2DFA7EBE4F3"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Elaboración de Pociones"
+			x: -7.0d
+			y: 2.1d
+			description: ["La elaboración de pociones funciona en su mayor parte como en Minecraft vanilla. Sin embargo, hay muchas más pociones disponibles para craftear, las cuales puedes ver a través de JEI. Además, los jugadores pueden crear Amuletos de poción para recibir efectos de poción poderosos por una duración más larga de lo habitual, e incluso estos efectos se pueden hacer permanentes a través de la Infusión."]
+			hide_dependency_lines: true
+			dependencies: ["2E51B03DF4811F84"]
+			size: 1.4d
+			id: "188EB7B36A79592B"
+			tasks: [{
+				id: "57D014107A8D7499"
+				type: "item"
+				title: "Fabricar un Soporte para Pociones"
+				item: "minecraft:brewing_stand"
+				consume_items: false
+				match_nbt: false
+			}]
+		}
+		{
+			title: "Amuletos de Pociones"
+			icon: {
+				id: "apotheosis:potion_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Potion: "minecraft:leaping"
+				}
+			}
+			x: -5.0d
+			y: 2.0d
+			description: [
+				"Los jugadores pueden combinar múltiples pociones junto con polvo de Blaze para crear amuletos de pociones. Estos pueden activarse o desactivarse haciendo clic derecho y proporcionarán al jugador el efecto de la poción mientras estén activos en la ranura de amuletos del jugador. Estos amuletos pueden ser encantados con Irrompibilidad o Reparación para extender su duración.\\n"
+				"&b&lAmuletos irrompibles"
+				"Los amuletos pueden ser infundidos mediante una mesa de encantamiento para convertirlos en su versión irrompible. Los amuletos irrompibles proporcionarán sus efectos de forma permanente, pero aún pueden activarse y desactivarse. Infundir un amuleto requiere Eterna al máximo, entre un 8.5% y un 13.5% de Quanta, y entre un 85% y un 95% de Arcana. Consulta la pestaña de misiones "Encantamiento" para obtener más información sobre las infusiones."
+			]
+			dependencies: ["188EB7B36A79592B"]
+			id: "1DCFE07555CD7B60"
+			tasks: [{
+				id: "6CA0CFF4D1C04472"
+				type: "checkmark"
+				title: "¡Capisci!"
+			}]
+			rewards: [{
+				id: "2FFCD351BCA58063"
+				type: "item"
+				item: "plushies:sheep"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
