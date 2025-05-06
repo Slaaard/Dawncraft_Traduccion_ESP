@@ -1,24 +1,84 @@
-# Traducción Español DawnCraft Echo of Legends
+# 🌄 Traducción al Español – DawnCraft: Echoes of Legends
 
-**Traducción al Español del ModPack DawnCraft - Echoes of Legends**
+Este repositorio ha sido creado con el objetivo de proporcionar una **traducción más completa y coherente** del ModPack **DawnCraft** para su actualización más reciente: **Echoes of Legends**.  
+La intención es evitar incongruencias en los textos y asegurar una experiencia comprensible para los jugadores. Se han incluido traducciones de **mods esenciales y principales**, lo cual mejora notablemente la coherencia entre los textos del ModPack y sus mods integrados.
 
-Este repositorio ha sido creado con el objetivo de proporcionar una traducción más completa y coherente del ModPack DawnCraft para su actualización más reciente, Echo of Legends. El propósito es evitar incongruencias en las traducciones y asegurar que los jugadores puedan disfrutar de una experiencia de juego comprensible. Además, se han incluido traducciones de mods esenciales y principales del ModPack, lo que permite una comprensión integral del juego tratando de evitar discrepancias entre lo que dice el modpack y los mods.
+---
 
-## I M P O R T A N T E
-### Para Versiones: 2.0.9_f o Inferiores
-- **Usar la carpeta correspondiente de las misiones de aldeanos para estas versiones, de lo contrario NO FUNCIONARÁ**
-- **Misiones de Aldeanos Versiones 2.0.9_f o Inferior/global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests**
-- **Misiones de Aldeanos Traducidas** - Por: Mexes-GM (https://github.com/Mexes-GM)
+## ❗ IMPORTANTE: Compatibilidad con versiones del ModPack
 
-### Para Versiones: 2.0.9_f2 o Superiores
-- **Usar la carpeta correspondiente de las misiones de aldeanos para estas versiones, de lo contrario NO FUNCIONARÁ**
-- **global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests**
-- **Misiones de Aldeanos Traducidas** - Por: Mexes-GM (https://github.com/Mexes-GM)
+### 🔻 Para versiones: `2.0.9_f` o inferiores
+- Usa la carpeta correcta de **misiones de aldeanos**, de lo contrario **NO FUNCIONARÁ**.
+- Ruta esperada:
+  
+  ```
+  global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests
+  ```
+  
+- **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
 
-##Instalación
-- **Paso 1: Ubicar tu carpeta raíz del modpack**
-- Ejemplo: C:\Users\juanito\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends
-- **Paso 2: Si no te interesa volver a usar las versiones en ingles o respaldarlas por cualquier cosa, copia la carpeta config y global_packs y pegalos en tu directorio raíz de Dawncraft, ¡¡Si o Si!! te debe pedir reemplazar archivos, reemplazalos y ya tendrías traducido las misiones principales, las clases de dawncraft y misiones de los aldeanos.**
-- **Paso 3: Si quieres respaldar o en futuro volver a usar la version en Ingles puedes ver el video tutorial que hice, espero te ayude!**
+### 🔺 Para versiones: `2.0.9_f2` o superiores
+- También debes usar la carpeta adecuada según la versión, o las misiones **no funcionarán correctamente**.
+- Ruta esperada:
+  
+  ```
+  global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests
+  ```
+  
+- **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
 
-##VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA: https://youtu.be/XRrmj6TKvg4
+---
+
+## ✅ Compatibilidad Probada
+
+Esta traducción ha sido **probada y funciona correctamente** en las siguientes versiones del ModPack:
+
+- `2.0.8 beta`
+- `2.0.9 beta`
+- `2.0.9_f`
+- `2.0.9_f2`
+- `2.0.9_f3`
+- `2.0.10`
+- `2.0.11`
+- `2.0.11_f`
+- `2.0.12`
+- `2.0.13`
+- `2.0.14`
+- `2.0.15`
+
+No se garantiza compatibilidad con versiones anteriores o futuras. Si decides probarla en otra versión, ¡cuéntame tu experiencia creando un issue o dejando un comentario en el video tutorial! Tu feedback puede ayudarme a mantener esta traducción actualizada. 🔧
+
+---
+
+## 📥 Instalación
+
+### 🔍 Paso 1: Ubicar tu carpeta raíz del ModPack
+Ejemplo de ruta común en CurseForge:
+
+  ```
+  C:\Users\juanito\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends
+  ```
+
+### 📂 Paso 2: Instalar la traducción (sin respaldo)
+Si **no deseas respaldar** los archivos originales en inglés:
+1. Copia las carpetas **`config`** y **`global_packs`** de este repositorio.
+2. Pégalas dentro del directorio raíz de **DawnCraft**.
+3. Al pegar, el sistema te pedirá reemplazar archivos. Acepta y selecciona **"Reemplazar todo"**.
+
+Con esto, tendrás traducidas:
+- Las misiones principales
+- Las clases de DawnCraft
+- Las misiones de los aldeanos
+
+### 💾 Paso 3 (Opcional): Respaldar o restaurar versión original
+Si deseas conservar una copia en inglés o necesitas volver a ella en el futuro, puedes seguir las instrucciones en el siguiente video:
+
+📺 [VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA](https://youtu.be/XRrmj6TKvg4)
+
+---
+
+## 💬 Soporte
+
+Si tienes dudas, problemas o sugerencias, no dudes en abrir un **Issue** en este repositorio.  
+¡Gracias por usar esta traducción y ayudar a mejorar la experiencia en DawnCraft! 🌍✨
+
