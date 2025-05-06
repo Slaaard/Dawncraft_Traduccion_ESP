@@ -1,5 +1,7 @@
 # 🌄 Traducción al Español – DawnCraft: Echoes of Legends
 
+📺 [VIDEO TUTORIAL PARA TRADUCCIÓN COMPLETA](https://youtu.be/XRrmj6TKvg4)
+
 Este repositorio ha sido creado con el objetivo de proporcionar una **traducción más completa y coherente** del ModPack **DawnCraft** para su actualización más reciente: **Echoes of Legends**.  
 La intención es evitar incongruencias en los textos y asegurar una experiencia comprensible para los jugadores. Se han incluido traducciones de **mods esenciales y principales**, lo cual mejora notablemente la coherencia entre los textos del ModPack y sus mods integrados.
 
