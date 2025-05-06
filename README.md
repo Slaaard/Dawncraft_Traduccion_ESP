@@ -7,26 +7,23 @@ La intención es evitar incongruencias en los textos y asegurar una experiencia 
 
 ## ❗ IMPORTANTE: Compatibilidad con versiones del ModPack
 
-### 🔻 Para versiones: `2.0.9_f` o inferiores
-- Usa la carpeta correcta de **misiones de aldeanos**, de lo contrario **NO FUNCIONARÁ**.
-- Ruta esperada:
-  
+### 🔻 Para versiones: `2.0.9_f` o inferiores y `2.0.9_f2` o superiores
+- Usa la carpeta correspondiente, de lo contrario **NO FUNCIONARÁ**.
+- Rutas a encontrar:
+- - Misiones del Libro de Misiones:
+  ```
+  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\config\ftbquests\quests
+  ```
+- - Clases de Guerreros de Dawncraft:
+  ```
+  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\config\dcclasses\assets\dawncraft\lang
+  ```
+- - Misiones de Aldeanos:
   ```
   C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\global_packs\required_data\DawnCraft_Datapack\data\quest_giver\quests
   ```
   
-- **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
-
-### 🔺 Para versiones: `2.0.9_f2` o superiores
-- También debes usar la carpeta adecuada según la versión, o las misiones **no funcionarán correctamente**.
-- Ruta esperada:
-  
-  ```
-  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\global_packs\required_data\DawnCraft_Datapack\data\quest_giver\quests
-  ```
-  
-- **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
-
+- **Misiones de Aldeanos Traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
 ---
 
 ## ✅ Compatibilidad Probada
