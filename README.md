@@ -12,7 +12,7 @@ La intención es evitar incongruencias en los textos y asegurar una experiencia 
 - Ruta esperada:
   
   ```
-  global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests
+  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\global_packs\required_data\DawnCraft_Datapack\data\quest_giver\quests
   ```
   
 - **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
@@ -22,7 +22,7 @@ La intención es evitar incongruencias en los textos y asegurar una experiencia 
 - Ruta esperada:
   
   ```
-  global_packs/required_data/DawnCraft_Datapack/data/quest_giver/quests
+  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\global_packs\required_data\DawnCraft_Datapack\data\quest_giver\quests
   ```
   
 - **Misiones traducidas por:** [Mexes-GM](https://github.com/Mexes-GM)
