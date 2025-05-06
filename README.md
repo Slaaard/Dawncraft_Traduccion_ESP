@@ -14,6 +14,10 @@ La intención es evitar incongruencias en los textos y asegurar una experiencia 
   ```
   C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\config\ftbquests\quests
   ```
+- - Clases de Guerreros de Dawncraft:
+  ```
+  C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\config\dcclasses\assets\dawncraft\lang
+  ```
 - - Misiones de Aldeanos:
   ```
   C:\Users\usuario\curseforge\minecraft\Instances\DawnCraft - Echoes of Legends\global_packs\required_data\DawnCraft_Datapack\data\quest_giver\quests
